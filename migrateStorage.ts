@@ -1,10 +1,10 @@
 const { createClient } = require('@supabase/supabase-js')
 
-// 旧supabaseのURLとサービスキー
+// 旧supabaseのURLとServiceKey
 const OLD_PROJECT_URL = '';
 const OLD_PROJECT_SERVICE_KEY = '';
 
-// 新supabaseのURLとサービスキーs
+// 新supabaseのURLとServiceKey
 const NEW_PROJECT_URL = '';
 const NEW_PROJECT_SERVICE_KEY = '';
 
