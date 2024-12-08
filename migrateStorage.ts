@@ -44,6 +44,7 @@ const NEW_PROJECT_SERVICE_KEY = '';
       return allObjects;
     }
     
+    // 旧supabaseのimagesバケットのオブジェクトを全て取得
     const oldObjects = await listAllObjects(oldSupabaseRestClient, 'images');
 
     for (const objectData of oldObjects) {
