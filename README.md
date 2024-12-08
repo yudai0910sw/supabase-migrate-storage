@@ -7,11 +7,11 @@ supabaseの旧プロジェクトから新プロジェクトにstorageを全て�
 ## 使い方
 1. supabaseのプロジェクト情報を元に、以下コードの部分を変更する
 `````
-// 旧supabaseのURLとサービスキー
+// 旧supabaseのURLとServiceKey
 const OLD_PROJECT_URL = '';
 const OLD_PROJECT_SERVICE_KEY = '';
 
-// 新supabaseのURLとサービスキーs
+// 新supabaseのURLとServiceKey
 const NEW_PROJECT_URL = '';
 const NEW_PROJECT_SERVICE_KEY = '';
 `````
