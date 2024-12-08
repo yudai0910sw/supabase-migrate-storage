@@ -45,7 +45,6 @@ const NEW_PROJECT_SERVICE_KEY = '';
     }
     
     const oldObjects = await listAllObjects(oldSupabaseRestClient, 'images');
-    console.log(oldObjects)
 
     for (const objectData of oldObjects) {
       console.log(`Moving ${objectData.path}`);
