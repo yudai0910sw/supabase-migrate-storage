@@ -2,7 +2,7 @@
 supabaseの旧プロジェクトから新プロジェクトにstorageを全て移行するスクリプト
 
 ## 使い方
-1. 以下コードの部分を自分の環境に合わせる
+1. supabaseのプロジェクト情報を元に、以下コードの部分を変更する
 `````
 // 旧supabaseのURLとサービスキー
 const OLD_PROJECT_URL = '';
